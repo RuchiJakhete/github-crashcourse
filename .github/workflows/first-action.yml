@@ -5,6 +5,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print greeting
-        run: echo "Hello" |
+        run: echo "Hello" 
+        shell: powershell
       - name: Print Goodbye
         run: echo "Bye"
+        shell: powershell
